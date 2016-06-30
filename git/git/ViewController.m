@@ -18,8 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"123");
-    NSLog(@"456");
+    UIImageView *imgView = [[UIImageView alloc]initWithFrame:self.view.frame];
+    imgView.image = [UIImage imageNamed:@"earth"];
+    [self.view addSubview:imgView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

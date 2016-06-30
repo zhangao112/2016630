@@ -15,6 +15,7 @@
 		04E1A4961D250FA6009A677B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E1A4941D250FA6009A677B /* LaunchScreen.storyboard */; };
 		04E1A4A11D250FA6009A677B /* gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1A4A01D250FA6009A677B /* gitTests.m */; };
 		04E1A4AC1D250FA6009A677B /* gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1A4AB1D250FA6009A677B /* gitUITests.m */; };
+		04E1A4BA1D251477009A677B /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E1A4B91D251477009A677B /* earth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		04E1A4A71D250FA6009A677B /* gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E1A4AB1D250FA6009A677B /* gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitUITests.m; sourceTree = "<group>"; };
 		04E1A4AD1D250FA6009A677B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E1A4B91D251477009A677B /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		04E1A4851D250FA6009A677B /* git */ = {
 			isa = PBXGroup;
 			children = (
+				04E1A4B91D251477009A677B /* earth.png */,
 				04E1A4891D250FA6009A677B /* AppDelegate.h */,
 				04E1A48A1D250FA6009A677B /* AppDelegate.m */,
 				04E1A48C1D250FA6009A677B /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E1A4BA1D251477009A677B /* earth.png in Resources */,
 				04E1A4961D250FA6009A677B /* LaunchScreen.storyboard in Resources */,
 				04E1A4931D250FA6009A677B /* Assets.xcassets in Resources */,
 				04E1A4911D250FA6009A677B /* Main.storyboard in Resources */,
